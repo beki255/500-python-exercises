@@ -1,0 +1,6 @@
+"""Ex143 Binary Pattern
+"""
+
+n=5
+for i in range(n):
+    for j in range(i+1): print(j%2,end=""); print()
